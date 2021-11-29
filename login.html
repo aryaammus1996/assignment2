@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/log.css">
+<title>login</title>
+</head>
+<body align="center" background="/num1.jpg">
+  <background-repeat : no-repeat-x;
+  
+  <h1>GET STARTED...!MY TO DO LIST...!</h1>
+<br><br>
+
+<form action="todo.html" >
+  
+
+  <div class="container">
+    <label for="uname" class="clr"><b>Uname</b></label>
+    <input type="uname" placeholder="User Name" name="uname" required id="uname">
+    <label for="error" id="mess"></label>
+    <br>
+    <label for="psw" class="clr"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="error" id="pass"></label>
+    <br>   
+    <button type="submit" style="border-radius: 5px;" onclick="return validate();"><b>Login</b></button>
+    <label class="clr">
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#9bf5a2e1">
+    <a href="todo.html" ><button type="button" class="cancelbtn" style="border-radius: 4px;">Back</button></a>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+<script src="jsfile/formlog.js"></script>
+</body>
+</html>
+
